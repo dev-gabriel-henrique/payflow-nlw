@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968812502329",
+    "project_id": "payflow-rocket-29321",
+    "storage_bucket": "payflow-rocket-29321.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968812502329:android:e2ce6407e9600ef1c31ce8",
+        "android_client_info": {
+          "package_name": "com.example.nlw_together"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968812502329-dbetav4labg88u049h1mhbjrtaab3n3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nlw_together",
+            "certificate_hash": "bbbe2d4d913c056c881fa5b9c69ff71d4546b7c4"
+          }
+        },
+        {
+          "client_id": "968812502329-mlf59dv0u3ps5ar1n8b3e2pkuk6jbpe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Dk3G37GPfaSaN7LOQzEmCZbtYaxFuW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968812502329-mlf59dv0u3ps5ar1n8b3e2pkuk6jbpe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
