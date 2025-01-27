@@ -5,6 +5,7 @@ import 'package:nlw_together/modules/home/home_page.dart';
 import 'package:nlw_together/modules/insert_boleto/insert_boleto_page.dart';
 import 'package:nlw_together/modules/login/login_page.dart';
 import 'package:nlw_together/modules/splash/splash_page.dart';
+import 'package:nlw_together/shared/models/user_model.dart';
 import 'package:nlw_together/shared/themes/app_colors.dart';
 
 class AppWidget extends StatelessWidget {
@@ -27,10 +28,14 @@ class AppWidget extends StatelessWidget {
       ),
       routes: {
         "/splash": (context) => const SplashPage(),
-        "/home": (context) => const HomePage(),
+        "/home": (context) => HomePage(
+              user: ModalRoute.of(context)!.settings.arguments as UserModel,
+            ),
         "/login": (context) => const LoginPage(),
         "/barcode_scanner": (context) => const BarcodeScannerPage(),
-        "/insert_boleto": (context) => const InsertBoletoPage()
+        "/insert_boleto": (context) => InsertBoletoPage(
+              barcode: ModalRoute.of(context)?.settings.arguments.toString(),
+            )
       },
     );
   }

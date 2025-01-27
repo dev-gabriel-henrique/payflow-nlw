@@ -10,4 +10,5 @@ class Appcolors {
   static const shape = Color(0xFFFAFAFC); // Itens
   static const background = Color(0xFFFFFFFF); // Itens
   static const input = Color(0xFFB1B0B8);
+  static const secondary = Color(0xFF585666);
 }

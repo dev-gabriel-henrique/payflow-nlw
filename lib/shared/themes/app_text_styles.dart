@@ -78,6 +78,11 @@ class TextStyles {
     fontWeight: FontWeight.w700,
     color: Appcolors.background,
   );
+  static final input = GoogleFonts.inter(
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    color: Appcolors.input,
+  );
   static final captionBackground = GoogleFonts.inter(
     fontSize: 13,
     fontWeight: FontWeight.w400,
