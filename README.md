@@ -1,16 +1,55 @@
-# nlw_together
+# 💸 Payflow — Next Level Week #6
 
-A new Flutter project.
+Aplicativo desenvolvido durante a **Next Level Week #6 - Trilha Flutter**, promovido pela [Rocketseat](https://rocketseat.com.br). O **Payflow** tem como objetivo ajudar usuários a **organizar seus boletos**, permitindo o cadastro, listagem e remoção de contas a pagar.
 
-## Getting Started
+## ✨ Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Leitura de boletos via QR Code ou código de barras  
+- Cadastro manual de boletos (nome, vencimento, valor)  
+- Listagem de boletos pendentes e pagos  
+- Exclusão de boletos  
+- Autenticação com Google  
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tecnologias utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [Firebase Auth](https://firebase.google.com/products/auth)
+- [Google Fonts](https://pub.dev/packages/google_fonts)
+- [Flutter Barcode Scanner](https://pub.dev/packages/flutter_barcode_scanner)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 Conceitos aplicados
+
+- Clean Architecture  
+- Gerenciamento de estado com `Provider`  
+- Firebase Authentication  
+- Componentização de UI com widgets reutilizáveis  
+- Leitura de código de barras com pacote externo  
+
+## 🛠️ Como rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/dev-gabriel-henrique/payflow-nlw.git
+cd payflow-nlw
+```
+
+2. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+3. Configure o firebase
+- Crie um projeto no Firebase Console
+
+- Ative o login com Google
+
+- Adicione os arquivos google-services.json (Android) e/ou GoogleService-Info.plist (iOS)
+
+4. Execute o app:
+
+```bash
+flutter run
+```
