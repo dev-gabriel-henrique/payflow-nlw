@@ -31,7 +31,8 @@ Aplicativo desenvolvido durante a **Next Level Week #6 - Trilha Flutter**, promo
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/dev-gabriel-henrique/payflow-nlw.git
+git init .
+git clone add origin git@github.com:dev-gabriel-henrique/payflow-nlw.git
 cd payflow-nlw
 ```
 
